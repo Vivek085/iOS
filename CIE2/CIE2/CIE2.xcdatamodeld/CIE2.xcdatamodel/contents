@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21G419" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DocEntity" representedClassName="DocEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="docename" optional="YES" attributeType="String"/>
+        <attribute name="docetype" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DoctorData" representedClassName="DoctorData" syncable="YES" codeGenerationType="class">
+        <attribute name="dname" optional="YES" attributeType="String"/>
+        <attribute name="dtype" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PatientD" representedClassName="PatientD" syncable="YES" codeGenerationType="class">
+        <attribute name="add" optional="YES" attributeType="String"/>
+        <attribute name="no" optional="YES" attributeType="String"/>
+        <attribute name="pname" optional="YES" attributeType="String"/>
+        <attribute name="prob" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PatientEntity" representedClassName="PatientEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="pEadd" optional="YES" attributeType="String"/>
+        <attribute name="pEmob" optional="YES" attributeType="String"/>
+        <attribute name="pEname" optional="YES" attributeType="String"/>
+        <attribute name="pEprob" optional="YES" attributeType="String"/>
+    </entity>
+</model>
